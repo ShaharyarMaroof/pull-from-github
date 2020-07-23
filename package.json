@@ -1,0 +1,24 @@
+{
+  "name": "pull-from-github",
+  "version": "1.0.0",
+  "description": "pull files directly from github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node pull-from-github.js"
+  },
+  "keywords": [
+    "Github",
+    "Fetch",
+    "Files",
+    "Pull",
+    "Repo"
+  ],
+  "author": "Shaharyar Maroof",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "github-api": "^3.3.0",
+    "node-fetch": "^2.6.0"
+  }
+}
