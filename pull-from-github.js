@@ -39,6 +39,11 @@ const getContentsFromRepo = async (repo, config) => {
   repo.getContents(ref, path, raw, callback)
 }
 
+/**
+ * Callback function to download the file from github
+ *
+ * @returns
+ */
 const downloadContentFromPath = () => {
   const headers = {
     Authorization: `token ${CONFIG.token}`
